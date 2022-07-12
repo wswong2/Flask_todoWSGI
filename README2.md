@@ -1,5 +1,5 @@
-# Additional commands that need to be run in environment:
-# -----------------------------------------------------------------
+Additional commands that need to be run in environment:
+-----------------------------------------------------------------
 (env) wswong2$ pip3 install gunicorn
 
 (env) wswong2$ pip3 freeze > requirements.txt
