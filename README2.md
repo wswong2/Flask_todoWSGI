@@ -17,6 +17,6 @@ web: gunicorn  app:app
 SQLite database also needs to be initialised from within python
 ---------------------------------------------------------------
 Check that test.db is indeed created 
-> from app import db
-> db.create_all()
-> exit()
+#> from app import db
+#> db.create_all()
+#> exit()
